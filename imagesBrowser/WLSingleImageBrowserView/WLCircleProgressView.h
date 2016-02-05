@@ -10,7 +10,7 @@
 @interface WLCircleProgressView : UIView
 
 @property (nonatomic, assign) CGFloat progressValue;// 范围: 0 ~ 1
-
+              
 //背景圆环
 @property (nonatomic, strong) CAShapeLayer *backCircle;
 //前面圆环

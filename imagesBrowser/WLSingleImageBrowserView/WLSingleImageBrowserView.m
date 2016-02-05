@@ -361,7 +361,7 @@ didFinishDownloadingToURL:(NSURL *)location{
         if (location.y > self.imageView.bounds.size.height - self.scrollView.bounds.size.height / 2.0 / self.originalMaxZoomScale) {
             self.displayFromBottom = YES;
         }
-        if (location.x > self.imageView.bounds.size.width - self.scrollView.bounds.size.height / 2.0 / self.originalMaxZoomScale) {
+        if (location.x > self.imageView.bounds.size.width - self.scrollView.bounds.size.width / 2.0 / self.originalMaxZoomScale) {
             self.displayFromRight = YES;
         }
         

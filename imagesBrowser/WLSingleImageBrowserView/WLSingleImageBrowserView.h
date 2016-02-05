@@ -20,10 +20,13 @@ typedef NS_ENUM(NSInteger, WLProgressViewType) {
 @property (nonatomic, strong, readonly) UIImage *currentDisplayImage;
 @property (nonatomic, assign) WLProgressViewType progressViewType;
 
+//加载本地图片
 -(instancetype)initWithFrame:(CGRect)frame image:(UIImage *)image;
 
+//加载网络图片
 -(instancetype)initWithFrame:(CGRect)frame URLString:(NSString *)urlStr placeholderImage:(UIImage *)pImage failureImage:(UIImage *)fImage;
 
+//重新恢复imageView的尺寸(由放大状态变为初始尺寸)
 -(void)recoveryImageViewSize;
 
 @end
