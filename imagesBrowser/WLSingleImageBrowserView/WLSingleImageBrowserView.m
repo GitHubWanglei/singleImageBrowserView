@@ -184,7 +184,7 @@ didFinishDownloadingToURL:(NSURL *)location{
 #pragma mark - 初始化页面
 -(void)initViewWithImage:(UIImage *)image{
     
-    self.backgroundColor = [UIColor blackColor];
+    self.backgroundColor = [UIColor clearColor];
     
     //scrollView
     self.scrollView = [[UIScrollView alloc] initWithFrame:self.bounds];

@@ -34,6 +34,7 @@
     
 //    ProgressViewTypePlainCircle, ProgressViewTypeSystemIndicator, ProgressViewTypeNone
 //    v1.progressViewType = ProgressViewTypePlainCircle;
+    v1.backgroundColor = [UIColor blackColor];
     [self.view addSubview:v1];
     
 }
